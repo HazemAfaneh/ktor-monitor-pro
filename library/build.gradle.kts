@@ -7,13 +7,13 @@ plugins {
     alias(libs.plugins.vanniktech.mavenPublish)
 }
 
-group = "io.github.kotlin"
+group = "io.github.hazemafaneh"
 version = "1.0.0"
 
 kotlin {
     jvm()
     androidLibrary {
-        namespace = "org.jetbrains.kotlinx.multiplatform.library.template"
+        namespace = "io.github.hazemafaneh.ktormonitorpro"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
 
@@ -24,10 +24,10 @@ kotlin {
         }
 
         compilations.configureEach {
-            compilerOptions.configure {
-                jvmTarget.set(
-                    JvmTarget.JVM_11
-                )
+            compileTaskProvider.configure {
+                compilerOptions {
+                    jvmTarget.set(JvmTarget.JVM_11)
+                }
             }
         }
     }
@@ -52,31 +52,31 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates(group.toString(), "library", version.toString())
+    coordinates(group.toString(), "ktor-monitor-pro", version.toString())
 
     pom {
-        name = "My library"
-        description = "A library."
+        name = "Ktor Monitor Pro"
+        description = "A Kotlin Multiplatform library for monitoring Ktor HTTP client traffic."
         inceptionYear = "2024"
-        url = "https://github.com/kotlin/multiplatform-library-template/"
+        url = "https://github.com/hazemafaneh/ktor-monitor-pro/"
         licenses {
             license {
-                name = "XXX"
-                url = "YYY"
-                distribution = "ZZZ"
+                name = "Apache License, Version 2.0"
+                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                distribution = "repo"
             }
         }
         developers {
             developer {
-                id = "XXX"
-                name = "YYY"
-                url = "ZZZ"
+                id = "hazemafaneh"
+                name = "Hazem Afaneh"
+                url = "https://github.com/hazemafaneh/"
             }
         }
         scm {
-            url = "XXX"
-            connection = "YYY"
-            developerConnection = "ZZZ"
+            url = "https://github.com/hazemafaneh/ktor-monitor-pro/"
+            connection = "scm:git:git://github.com/hazemafaneh/ktor-monitor-pro.git"
+            developerConnection = "scm:git:ssh://git@github.com/hazemafaneh/ktor-monitor-pro.git"
         }
     }
 }
