@@ -1,2 +1,2 @@
 
-<io.github.hazemafaneh:library>:$io.github.hazemafaneh.ktormonitorpro
+<io.github.hazemafaneh:library>:*io.github.hazemafaneh.networkinspectionpro:9io.github.hazemafaneh.networkinspectionpro.internal.shake:6io.github.hazemafaneh.networkinspectionpro.internal.ui:Aio.github.hazemafaneh.networkinspectionpro.internal.ui.components:9io.github.hazemafaneh.networkinspectionpro.internal.utils:=io.github.hazemafaneh.networkinspectionpro.internal.viewmodel

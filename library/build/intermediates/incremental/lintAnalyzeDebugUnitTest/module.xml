@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library"
+    name=":library"
+    type="LIBRARY"
+    maven="io.github.hazemafaneh:library:1.0.0"
+    agpVersion="8.10.0"
+    buildFolder="build"
+    bootClassPath="/Users/hazemafaneh/Library/Android/sdk/platforms/android-35/android.jar:/Users/hazemafaneh/Library/Android/sdk/build-tools/35.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-35"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

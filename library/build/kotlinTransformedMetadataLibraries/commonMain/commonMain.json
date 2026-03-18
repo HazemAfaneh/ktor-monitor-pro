@@ -1,7 +1,192 @@
 [
   {
-    "moduleId": "module org.jetbrains.kotlin:kotlin-stdlib:2.3.10",
-    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlin-kotlin-stdlib-2.3.10-commonMain-1ooqQQ.klib",
+    "moduleId": "module org.jetbrains.kotlin:kotlin-stdlib:2.1.21",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlin-kotlin-stdlib-2.1.21-commonMain-uBNgdg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.runtime-runtime-1.8.1-commonMain-jWWnJg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.foundation-foundation-1.8.1-commonMain-zZs6kQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material3:material3:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material3-material3-1.8.1-commonMain-IWEVXQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material:material-icons-extended:1.7.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-icons-extended-1.7.3-commonMain-m2wuDA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-1.8.1-commonMain-EpcjWg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-client-core:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-client-core-3.1.3-commonMain-WpkHIg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-serialization-json-1.8.1-commonMain-5O0Ftg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.10.2-concurrentMain-wJOvIw.klib",
+    "sourceSetName": "concurrentMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.10.2-commonMain-wJOvIw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.animation-animation-1.8.1-commonMain-hDRn4A.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material:material-ripple:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-ripple-1.8.1-commonMain-fA0Fvg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-graphics-1.8.1-commonMain-4mJ79Q.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-text-1.8.1-commonMain-OvwrHg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material:material-icons-core:1.7.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-icons-core-1.7.3-commonMain-OY6u5w.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-common:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-common-2.8.4-commonMain-FPlmfg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime-saveable:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.runtime-runtime-saveable-1.8.1-commonMain-HY_2Hg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-geometry:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-geometry-1.8.1-commonMain-1jjAnQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-unit:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-unit-1.8.1-commonMain-YP1muA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-util:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-util-1.8.1-commonMain-TL6JCg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-http:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-http-3.1.3-commonMain-Ln87OA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-http-cio:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-http-cio-3.1.3-jvmAndPosixMain-v9SM5w.klib",
+    "sourceSetName": "jvmAndPosixMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-http-cio:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-http-cio-3.1.3-commonMain-v9SM5w.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-events:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-events-3.1.3-commonMain-DnX62Q.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-websocket-serialization:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-websocket-serialization-3.1.3-commonMain-VJ8Qkw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-sse:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-sse-3.1.3-commonMain-tqkThw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-serialization-core:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-serialization-core-1.8.1-commonMain--3vp9g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation-core:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.animation-animation-core-1.8.1-commonMain-2smSyw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.foundation-foundation-layout-1.8.1-commonMain-Urf8fw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.annotation-internal:annotation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.annotation-internal-annotation-1.8.1-commonMain-nX1O7g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-utils:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-utils-3.1.3-commonMain-VfAiqw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-io:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-io-3.1.3-jvmAndPosixMain-zvypDg.klib",
+    "sourceSetName": "jvmAndPosixMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-io:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-io-3.1.3-commonMain-zvypDg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-serialization:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-serialization-3.1.3-commonMain-HndeAQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module androidx.annotation:annotation:1.9.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/androidx.annotation-annotation-1.9.1-commonMain-WmoUwA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-core:0.7.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-io-core-0.7.0-commonMain-BKg_EQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-websockets:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-websockets-3.1.3-commonMain-1YPcmw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-bytestring:0.7.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-io-bytestring-0.7.0-commonMain-Z6unQQ.klib",
     "sourceSetName": "commonMain"
   }
 ]

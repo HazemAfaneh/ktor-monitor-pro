@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.10.0" type="incidents">
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of Gradle than 8.14.3 is available: 8.14.4">
+        <fix-replace
+            description="Update to 8.14.4"
+            oldString="8.14.3"
+            replacement="8.14.4"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"
+            startOffset="81"
+            endLine="3"
+            endColumn="81"
+            endOffset="145"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.library than 8.10.0 is available: 9.1.0. (There is also a newer version of 8.10.𝑥 available, if upgrading to 9.1.0 is difficult: 8.10.1)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 9.1.0"
+                family="Update versions"
+                oldString="8.10.0"
+                replacement="9.1.0"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.10.1"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.10.0"
+                replacement="8.10.1"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="2"
+            column="25"
+            startOffset="35"
+            endLine="2"
+            endColumn="33"
+            endOffset="43"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.multiplatform than 2.1.21 is available: 2.3.10">
+        <fix-replace
+            description="Change to 2.3.10"
+            family="Update versions"
+            oldString="2.1.21"
+            replacement="2.3.10"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="3"
+            column="25"
+            startOffset="68"
+            endLine="3"
+            endColumn="33"
+            endOffset="76"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.1.21 is available: 2.3.10">
+        <fix-replace
+            description="Change to 2.3.10"
+            family="Update versions"
+            oldString="2.1.21"
+            replacement="2.3.10"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="3"
+            column="25"
+            startOffset="68"
+            endLine="3"
+            endColumn="33"
+            endOffset="76"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.plugin.serialization than 2.1.21 is available: 2.3.10">
+        <fix-replace
+            description="Change to 2.3.10"
+            family="Update versions"
+            oldString="2.1.21"
+            replacement="2.3.10"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="3"
+            column="25"
+            startOffset="68"
+            endLine="3"
+            endColumn="33"
+            endOffset="76"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin:kotlin-test than 2.1.21 is available: 2.3.10">
+        <fix-replace
+            description="Change to 2.3.10"
+            family="Update versions"
+            oldString="2.1.21"
+            replacement="2.3.10"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="3"
+            column="25"
+            startOffset="68"
+            endLine="3"
+            endColumn="33"
+            endOffset="76"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.compose than 1.8.1 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.8.1"
+            replacement="1.10.1"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="4"
+            column="25"
+            startOffset="101"
+            endLine="4"
+            endColumn="32"
+            endOffset="108"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of io.ktor:ktor-client-core than 3.1.3 is available: 3.4.0">
+        <fix-replace
+            description="Change to 3.4.0"
+            family="Update versions"
+            oldString="3.1.3"
+            replacement="3.4.0"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="5"
+            column="25"
+            startOffset="133"
+            endLine="5"
+            endColumn="32"
+            endOffset="140"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-serialization-json than 1.8.1 is available: 1.10.0">
+        <fix-replace
+            description="Change to 1.10.0"
+            family="Update versions"
+            oldString="1.8.1"
+            replacement="1.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="6"
+            column="25"
+            startOffset="165"
+            endLine="6"
+            endColumn="32"
+            endOffset="172"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.vanniktech.maven.publish than 0.30.0 is available: 0.36.0">
+        <fix-replace
+            description="Change to 0.36.0"
+            family="Update versions"
+            oldString="0.30.0"
+            replacement="0.36.0"
+            priority="0"/>
+        <location
+            file="$HOME/AndroidStudioProjects/hazem/ktor-monitor-pro/gradle/libs.versions.toml"
+            line="10"
+            column="26"
+            startOffset="289"
+            endLine="10"
+            endColumn="34"
+            endOffset="297"/>
+    </incident>
+
+</incidents>

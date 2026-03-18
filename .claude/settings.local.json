@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(BASE=/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/src)",
+      "Bash(mkdir -p $BASE/commonMain/kotlin/io/github/hazemafaneh/networkinspectionpro/internal/utils $BASE/commonMain/kotlin/io/github/hazemafaneh/networkinspectionpro/internal/shake $BASE/commonMain/kotlin/io/github/hazemafaneh/networkinspectionpro/internal/viewmodel $BASE/commonMain/kotlin/io/github/hazemafaneh/networkinspectionpro/internal/ui/components $BASE/androidMain/kotlin/io/github/hazemafaneh/networkinspectionpro/internal/utils $BASE/androidMain/kotlin/io/github/hazemafaneh/networkinspectionpro/internal/shake $BASE/iosMain/kotlin/io/github/hazemafaneh/networkinspectionpro/internal/utils $BASE/iosMain/kotlin/io/github/hazemafaneh/networkinspectionpro/internal/shake $BASE/commonTest/kotlin/io/github/hazemafaneh/networkinspectionpro)",
+      "Bash(./gradlew :library:compileKotlinIosArm64 :library:compileKotlinIosSimulatorArm64)",
+      "Bash(./gradlew :library:assembleDebug)",
+      "Bash(./gradlew :library:linkDebugFrameworkIosSimulatorArm64)",
+      "Bash(./gradlew :library:tasks)",
+      "Bash(./gradlew :library:iosSimulatorArm64MainBinaries)"
+    ]
+  }
+}

@@ -1,9 +1,12 @@
-import com.android.build.api.dsl.androidLibrary
+import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
-    alias(libs.plugins.android.kotlin.multiplatform.library)
+    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.kotlinSerialization)
+    alias(libs.plugins.composeMultiplatform)
+    alias(libs.plugins.composeCompiler)
     alias(libs.plugins.vanniktech.mavenPublish)
 }
 
@@ -11,68 +14,62 @@ group = "io.github.hazemafaneh"
 version = "1.0.0"
 
 kotlin {
-    jvm()
-    androidLibrary {
-        namespace = "io.github.hazemafaneh.ktormonitorpro"
-        compileSdk = libs.versions.android.compileSdk.get().toInt()
-        minSdk = libs.versions.android.minSdk.get().toInt()
-
-        withJava() // enable java compilation support
-        withHostTestBuilder {}.configure {}
-        withDeviceTestBuilder {
-            sourceSetTreeName = "test"
-        }
-
-        compilations.configureEach {
-            compileTaskProvider.configure {
-                compilerOptions {
-                    jvmTarget.set(JvmTarget.JVM_11)
-                }
-            }
-        }
+    androidTarget {
+        @OptIn(ExperimentalKotlinGradlePluginApi::class)
+        compilerOptions { jvmTarget.set(JvmTarget.JVM_11) }
     }
     iosX64()
     iosArm64()
     iosSimulatorArm64()
-    linuxX64()
 
     sourceSets {
         commonMain.dependencies {
-            //put your multiplatform dependencies here
+            implementation(compose.runtime)
+            implementation(compose.foundation)
+            implementation(compose.material3)
+            implementation(compose.materialIconsExtended)
+            implementation(compose.ui)
+            implementation(libs.ktor.client.core)
+            implementation(libs.kotlinx.serialization.json)
+            implementation(libs.kotlinx.coroutines.core)
         }
-
+        androidMain.dependencies {
+            implementation(libs.kotlinx.coroutines.android)
+        }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
     }
 }
 
+android {
+    namespace  = "io.github.hazemafaneh.networkinspectionpro"
+    compileSdk = libs.versions.android.compileSdk.get().toInt()
+    defaultConfig { minSdk = libs.versions.android.minSdk.get().toInt() }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+}
+
 mavenPublishing {
     publishToMavenCentral()
-
     signAllPublications()
-
-    coordinates(group.toString(), "ktor-monitor-pro", version.toString())
-
+    coordinates(group.toString(), "network-inspection-pro", version.toString())
     pom {
-        name = "Ktor Monitor Pro"
-        description = "A Kotlin Multiplatform library for monitoring Ktor HTTP client traffic."
-        inceptionYear = "2024"
+        name = "NetworkInspectionPro"
+        description = "A Kotlin Multiplatform Ktor network inspector with a shake-to-open Compose UI."
+        inceptionYear = "2025"
         url = "https://github.com/hazemafaneh/ktor-monitor-pro/"
-        licenses {
-            license {
-                name = "Apache License, Version 2.0"
-                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
-                distribution = "repo"
-            }
-        }
-        developers {
-            developer {
-                id = "hazemafaneh"
-                name = "Hazem Afaneh"
-                url = "https://github.com/hazemafaneh/"
-            }
-        }
+        licenses { license {
+            name = "Apache License, Version 2.0"
+            url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+            distribution = "repo"
+        }}
+        developers { developer {
+            id = "hazemafaneh"; name = "Hazem Afaneh"
+            url = "https://github.com/hazemafaneh/"
+        }}
         scm {
             url = "https://github.com/hazemafaneh/ktor-monitor-pro/"
             connection = "scm:git:git://github.com/hazemafaneh/ktor-monitor-pro.git"

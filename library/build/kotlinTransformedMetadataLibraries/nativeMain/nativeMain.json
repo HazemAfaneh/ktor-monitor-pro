@@ -1,1 +1,462 @@
-[]
+[
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.runtime-runtime-1.8.1-darwinMain-4s9igA.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.runtime-runtime-1.8.1-posixMain-jWWnJg.klib",
+    "sourceSetName": "posixMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.runtime-runtime-1.8.1-nativeMain-jWWnJg.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.runtime-runtime-1.8.1-nonJvmMain-jWWnJg.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.runtime:runtime:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.runtime-runtime-1.8.1-nonAndroidMain-jWWnJg.klib",
+    "sourceSetName": "nonAndroidMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.foundation-foundation-1.8.1-uikitMain-cCXCAA.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.foundation-foundation-1.8.1-darwinMain-cCXCAA.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.foundation-foundation-1.8.1-nativeMain-cCXCAA.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.foundation-foundation-1.8.1-jsNativeMain-zZs6kQ.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.foundation-foundation-1.8.1-skikoMain-zZs6kQ.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material3:material3:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.material3-material3-1.8.1-darwinMain-TWqvWA.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material3:material3:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.material3-material3-1.8.1-nativeMain-TWqvWA.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material3:material3:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.material3-material3-1.8.1-jsNativeMain-IWEVXQ.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material3:material3:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.material3-material3-1.8.1-skikoMain-IWEVXQ.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material3:material3:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.material3-material3-1.8.1-nonJvmMain-IWEVXQ.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-1.8.1-uikitMain-13TQLA.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-1.8.1-darwinMain-13TQLA.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-1.8.1-nativeMain-13TQLA.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-1.8.1-jsNativeMain-EpcjWg.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-1.8.1-skikoMain-EpcjWg.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-client-core:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-client-core-3.1.3-posixMain-WpkHIg.klib",
+    "sourceSetName": "posixMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-client-core:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-client-core-3.1.3-nonJvmMain-WpkHIg.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-serialization-json-1.8.1-nativeMain-5O0Ftg.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.10.2-nativeDarwinMain--jzUgA.klib",
+    "sourceSetName": "nativeDarwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.10.2-nativeMain-wJOvIw.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.collection-internal:collection:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.collection-internal-collection-1.8.1-commonMain-5vjmwQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:atomicfu:0.23.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-atomicfu-0.23.2-nativeMain-yBS35w.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:atomicfu:0.23.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-atomicfu-0.23.2-commonMain-yBS35w.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.animation-animation-1.8.1-nativeMain-TDYJhA.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.animation-animation-1.8.1-jsNativeMain-hDRn4A.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.foundation-foundation-layout-1.8.1-uikitMain-gzFjrQ.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.foundation-foundation-layout-1.8.1-skikoMain-Urf8fw.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.foundation-foundation-layout-1.8.1-jsNativeMain-Urf8fw.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-text-1.8.1-uikitMain-j1TTYA.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-text-1.8.1-darwinMain-j1TTYA.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-text-1.8.1-nativeMain-j1TTYA.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-text-1.8.1-jsNativeMain-OvwrHg.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-text:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-text-1.8.1-skikoMain-OvwrHg.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-uikit:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-uikit-1.8.1-uikitMain-oOVhOA.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-util:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-util-1.8.1-uikitMain-WZy3gA.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-util:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-util-1.8.1-nonJvmMain-TL6JCg.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.9.4.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.skiko-skiko-0.9.4.2-iosMain-SvRtdQ.klib",
+    "sourceSetName": "iosMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.9.4.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.skiko-skiko-0.9.4.2-uikitMain-SvRtdQ.klib",
+    "sourceSetName": "uikitMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.9.4.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.skiko-skiko-0.9.4.2-darwinMain-SvRtdQ.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.9.4.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.skiko-skiko-0.9.4.2-nativeMain-abF9Iw.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.9.4.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.skiko-skiko-0.9.4.2-nativeJsMain-abF9Iw.klib",
+    "sourceSetName": "nativeJsMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.skiko:skiko:0.9.4.2",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.skiko-skiko-0.9.4.2-commonMain-abF9Iw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation-core:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.animation-animation-core-1.8.1-jsNativeMain-2smSyw.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.animation:animation-core:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.animation-animation-core-1.8.1-jbMain-2smSyw.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.material:material-ripple:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.material-material-ripple-1.8.1-jbMain-fA0Fvg.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-backhandler:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-backhandler-1.8.1-jbMain-aQ3Lcg.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-backhandler:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-backhandler-1.8.1-commonMain-aQ3Lcg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-graphics-1.8.1-nativeMain-s5N8KQ.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-graphics-1.8.1-skikoExcludingWebMain-4mJ79Q.klib",
+    "sourceSetName": "skikoExcludingWebMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-graphics-1.8.1-jsNativeMain-4mJ79Q.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-graphics-1.8.1-skikoMain-4mJ79Q.klib",
+    "sourceSetName": "skikoMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-datetime:0.6.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-datetime-0.6.0-darwinMain-O4UcJA.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-datetime:0.6.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-datetime-0.6.0-tzdbOnFilesystemMain-v1Leig.klib",
+    "sourceSetName": "tzdbOnFilesystemMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-datetime:0.6.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-datetime-0.6.0-tzfileMain-v1Leig.klib",
+    "sourceSetName": "tzfileMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-datetime:0.6.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-datetime-0.6.0-nativeMain-v1Leig.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-datetime:0.6.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-datetime-0.6.0-commonMain-v1Leig.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-common:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-common-2.8.4-nonJvmMain-FPlmfg.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.4-nativeMain-P_jWsA.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.4-nonJvmMain-P_jWsA.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.4-commonMain-P_jWsA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-compose-2.8.4-nonAndroidMain-eB6IaQ.klib",
+    "sourceSetName": "nonAndroidMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-compose-2.8.4-commonMain-eB6IaQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.4-nativeMain-I44vqw.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.4-nonJvmMain-I44vqw.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel:2.8.4",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.4-commonMain-I44vqw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-unit:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-unit-1.8.1-jsNativeMain-YP1muA.klib",
+    "sourceSetName": "jsNativeMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.compose.ui:ui-unit:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.compose.ui-ui-unit-1.8.1-jbMain-YP1muA.klib",
+    "sourceSetName": "jbMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-http:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-http-3.1.3-posixMain-Ln87OA.klib",
+    "sourceSetName": "posixMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-http-cio:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-http-cio-3.1.3-posixMain-v9SM5w.klib",
+    "sourceSetName": "posixMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-serialization-core:1.8.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-serialization-core-1.8.1-nativeMain--3vp9g.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module androidx.annotation:annotation:1.9.1",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/androidx.annotation-annotation-1.9.1-nonJvmMain-WmoUwA.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module androidx.collection:collection:1.5.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/androidx.collection-collection-1.5.0-darwinMain-1oCDtg.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module androidx.collection:collection:1.5.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/androidx.collection-collection-1.5.0-unixMain-j7f1lg.klib",
+    "sourceSetName": "unixMain"
+  },
+  {
+    "moduleId": "module androidx.collection:collection:1.5.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/androidx.collection-collection-1.5.0-nativeMain-j7f1lg.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module androidx.collection:collection:1.5.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/androidx.collection-collection-1.5.0-nonJvmMain-j7f1lg.klib",
+    "sourceSetName": "nonJvmMain"
+  },
+  {
+    "moduleId": "module androidx.collection:collection:1.5.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/androidx.collection-collection-1.5.0-commonMain-j7f1lg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-utils:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-utils-3.1.3-darwinMain-n61uLw.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-utils:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-utils-3.1.3-nixMain-VfAiqw.klib",
+    "sourceSetName": "nixMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-utils:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-utils-3.1.3-posixMain-VfAiqw.klib",
+    "sourceSetName": "posixMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-io:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-io-3.1.3-darwinMain-kJMWEg.klib",
+    "sourceSetName": "darwinMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-io:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-io-3.1.3-posixMain-zvypDg.klib",
+    "sourceSetName": "posixMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-core:0.7.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-io-core-0.7.0-appleMain-pcHO0Q.klib",
+    "sourceSetName": "appleMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-core:0.7.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-io-core-0.7.0-nativeNonAndroidMain-BKg_EQ.klib",
+    "sourceSetName": "nativeNonAndroidMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-core:0.7.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-io-core-0.7.0-nativeMain-BKg_EQ.klib",
+    "sourceSetName": "nativeMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-websockets:3.1.3",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/io.ktor-ktor-websockets-3.1.3-posixMain-1YPcmw.klib",
+    "sourceSetName": "posixMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-bytestring:0.7.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-io-bytestring-0.7.0-appleMain-RxDtHA.klib",
+    "sourceSetName": "appleMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-bytestring:0.7.0",
+    "file": "/Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/kotlinTransformedMetadataLibraries/nativeMain/org.jetbrains.kotlinx-kotlinx-io-bytestring-0.7.0-nativeMain-Z6unQQ.klib",
+    "sourceSetName": "nativeMain"
+  }
+]
