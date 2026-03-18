@@ -1,0 +1,13 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/intermediates/tmp/ProcessLibraryManifest/tempAndroidManifest8992536296401903554.xml:2:13-83
+INJECTED from /Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/intermediates/tmp/ProcessLibraryManifest/tempAndroidManifest8992536296401903554.xml:2:13-83
+	package
+		INJECTED from /Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/intermediates/tmp/ProcessLibraryManifest/tempAndroidManifest8992536296401903554.xml
+	xmlns:android
+		ADDED from /Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/intermediates/tmp/ProcessLibraryManifest/tempAndroidManifest8992536296401903554.xml:2:23-81
+uses-sdk
+INJECTED from /Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/intermediates/tmp/ProcessLibraryManifest/tempAndroidManifest8992536296401903554.xml reason: use-sdk injection requested
+INJECTED from /Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/intermediates/tmp/ProcessLibraryManifest/tempAndroidManifest8992536296401903554.xml
+	android:minSdkVersion
+		INJECTED from /Users/hazemafaneh/AndroidStudioProjects/hazem/ktor-monitor-pro/library/build/intermediates/tmp/ProcessLibraryManifest/tempAndroidManifest8992536296401903554.xml

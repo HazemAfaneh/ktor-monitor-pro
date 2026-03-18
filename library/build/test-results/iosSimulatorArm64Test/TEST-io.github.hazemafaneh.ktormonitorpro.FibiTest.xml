@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.hazemafaneh.ktormonitorpro.FibiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-03-18T10:35:14.669Z" hostname="Hazems-MacBook-Pro.local" time="0.0">
+  <properties/>
+  <testcase name="test 3rd element[iosSimulatorArm64]" classname="io.github.hazemafaneh.ktormonitorpro.FibiTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
