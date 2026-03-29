@@ -13,6 +13,11 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 
+internal data class NetworkInspectorUiState(
+    val logs: List<NetworkLogEntry> = emptyList(),
+    val searchQuery: String = ""
+)
+
 internal class NetworkInspectorViewModel {
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
@@ -34,12 +39,30 @@ internal class NetworkInspectorViewModel {
         }
     }.stateIn(scope, SharingStarted.Eagerly, emptyList())
 
-    fun onSearchQueryChanged(query: String) {
+    val uiState: StateFlow<NetworkInspectorUiState> = combine(
+        filteredEntries,
+        _searchQuery
+    ) { logs, query ->
+        NetworkInspectorUiState(logs = logs, searchQuery = query)
+    }.stateIn(scope, SharingStarted.Eagerly, NetworkInspectorUiState())
+
+    fun search(query: String) {
         _searchQuery.value = query
     }
 
+    fun clearLogs() {
+        NetworkLogStore.clear()
+    }
+
+    // Legacy alias kept for Overlay back-navigation
+    fun onSearchQueryChanged(query: String) = search(query)
+
     fun onEntrySelected(entry: NetworkLogEntry?) {
         _selectedEntryId.value = entry?.id
+    }
+
+    fun onEntryIdSelected(id: String?) {
+        _selectedEntryId.value = id
     }
 
     fun onDestroy() {

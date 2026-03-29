@@ -36,11 +36,11 @@
         {
           "name": "library-release.aar",
           "url": "network-inspection-pro-android-1.0.0.aar",
-          "size": 216885,
-          "sha512": "199b72e51c7d524ed0d5d7b1d48498f060d2f60af776fd73b57437bdaba8654cf62a294335662d1bc34660e78eb2814a86567020002073334e910b4ea178f1a2",
-          "sha256": "b0426ae03999c65a696a387cf43c61e9542f7ea51f7f19d1afbbe60c963e16ed",
-          "sha1": "f4832bc550a55f939d5db6c144bdf0d48c3d0591",
-          "md5": "0a4b98ec5d5b7f8129583fbfbfa440f1"
+          "size": 255637,
+          "sha512": "86350d77574a2fec4b91f4d8bfe452ba898f33095d4375e39d9761282388c8deba5902dec80d506756da0edc408f54c64079749d3873fd8872eab95b18be42bb",
+          "sha256": "14ca739d0e79070b3a81f0e38d4ce52eca75317ce94e77678d2729516c3d433d",
+          "sha1": "fc0cecb965ef954767d027b25ff1765f3673a7b5",
+          "md5": "952ee0c5ec6271e79059a90e65dc1009"
         }
       ]
     },
@@ -268,11 +268,11 @@
         {
           "name": "library-release.aar",
           "url": "network-inspection-pro-android-1.0.0.aar",
-          "size": 216885,
-          "sha512": "199b72e51c7d524ed0d5d7b1d48498f060d2f60af776fd73b57437bdaba8654cf62a294335662d1bc34660e78eb2814a86567020002073334e910b4ea178f1a2",
-          "sha256": "b0426ae03999c65a696a387cf43c61e9542f7ea51f7f19d1afbbe60c963e16ed",
-          "sha1": "f4832bc550a55f939d5db6c144bdf0d48c3d0591",
-          "md5": "0a4b98ec5d5b7f8129583fbfbfa440f1"
+          "size": 255637,
+          "sha512": "86350d77574a2fec4b91f4d8bfe452ba898f33095d4375e39d9761282388c8deba5902dec80d506756da0edc408f54c64079749d3873fd8872eab95b18be42bb",
+          "sha256": "14ca739d0e79070b3a81f0e38d4ce52eca75317ce94e77678d2729516c3d433d",
+          "sha1": "fc0cecb965ef954767d027b25ff1765f3673a7b5",
+          "md5": "952ee0c5ec6271e79059a90e65dc1009"
         }
       ]
     },
@@ -291,11 +291,11 @@
         {
           "name": "library-android-1.0.0-sources.jar",
           "url": "network-inspection-pro-android-1.0.0-sources.jar",
-          "size": 20793,
-          "sha512": "721403c8eccf9de308106c731b2a59ade2604fbab21ad8eaa77e4a739e43bb120130760894d3aae156f9b63fed6c6640a577ae5e873a7098ac97f2862f83563a",
-          "sha256": "fd27750f49f5d5bc73771010cf6d7c95d194ba5ee740611324bdb2b42b8a3cc6",
-          "sha1": "b689c148a742207767db5359a001b30421e7fc56",
-          "md5": "03a791ff3fa3f88255ed160876ecac65"
+          "size": 22235,
+          "sha512": "bb27c41e8afbc911ecc03c5f3361c37d4b6c5b9bc624a75017869bb56de212c6095d7907eb4960017a916556f363c1b2d285a56e7ccc68bea19d93d300890063",
+          "sha256": "15a11a4c537bfbec364a973554fc410b5fc4dc61bc437d5b4bcfa90b05802409",
+          "sha1": "99156ff307009110ae7ae1805501c39a09b723fc",
+          "md5": "308d38273bbedca4cddefdd5e9bfa784"
         }
       ]
     }

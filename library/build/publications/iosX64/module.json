@@ -94,11 +94,11 @@
         {
           "name": "library-iosX64Main-1.0.0.klib",
           "url": "network-inspection-pro-iosx64-1.0.0.klib",
-          "size": 151301,
-          "sha512": "0e68e307cd2889026ca788a1ff6e8d8058ce63d5ba6e3cce6d982fcab3a752e795f3d13c6f5900d8521ce70586399ef7f6e1b05b845f811042f10556cc17b3ad",
-          "sha256": "2ce8ebd9b8e88a9488ac18ae6f732604cbf03b05b005800f04a39c7cabe6bb77",
-          "sha1": "8ba550d9404c1111560bfb8eaf92a6f026a4362f",
-          "md5": "e625b9c9c5518d3b871b938de156c137"
+          "size": 167746,
+          "sha512": "128abbe79c095bf92fb9fcf656d76984026762de7919ea6466cb376f056ab53a41c3416a436508ac38d45117a19fa6cab7d446b74728734b0feb4cac89090108",
+          "sha256": "4fcab206bd7b272f16d769e83506614acbe78756887a1c43fb08926ba11713ee",
+          "sha1": "2cbe5af3534711306534d7bf058e02f8143f8fb9",
+          "md5": "e07d18847455cbdb3920513b12a8da24"
         }
       ]
     },
@@ -117,11 +117,11 @@
         {
           "name": "library-iosx64-1.0.0-sources.jar",
           "url": "network-inspection-pro-iosx64-1.0.0-sources.jar",
-          "size": 19855,
-          "sha512": "9813d3971bc5429336f5bf8f29f3247d2d17d87c6dc2ed8c53f60e310b7491a7840406a2446f50bfa667261a0d13996af0181a4426a4641bf474d5385697741e",
-          "sha256": "fcae6193465eda274276c3ab6cce43d604ca597442a8a76fe5f2b75b50faba3f",
-          "sha1": "62a4bee93ff870a7cc5046dec1d1dd8232b3e3c7",
-          "md5": "b680517d29cb3dc7e2518cb8a9905f76"
+          "size": 21297,
+          "sha512": "71453ab1301465bb27e8bc8c5a333a42fdc2b1278e7db752c14f38c0f13b66dc136b1d15f2a4a4863733d7f399c3340930f517dcc0232145ffba91ddf032de7c",
+          "sha256": "b6b89485b3c8430c598f35bd801604450b0abf06dbea9a4d97e21378669814ae",
+          "sha1": "0c34a6af6b45eb05f4044757d69dd4797090f1c1",
+          "md5": "3a25656344d89588b1fcba7390de6d8d"
         }
       ]
     },

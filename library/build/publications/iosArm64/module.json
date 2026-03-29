@@ -94,11 +94,11 @@
         {
           "name": "library-iosArm64Main-1.0.0.klib",
           "url": "network-inspection-pro-iosarm64-1.0.0.klib",
-          "size": 151317,
-          "sha512": "5b1df930873b1fd6ea43d34ce6d713d21da4ff3cd1d4a87cab5011ea93921a9fd6079da752d280a1efcf6dfd2cd613acd4eba85521e22ce9720b2f0bd83427b6",
-          "sha256": "8a8a9800465926290f8bffe12d39c88f9467ba0c80b23f9eeab46da4ca8a1aed",
-          "sha1": "e5656801cebc617e87eba2414f96446d990fec18",
-          "md5": "1de699b464958bbea7eefa74f51af106"
+          "size": 167762,
+          "sha512": "f8f1c3d3581558b4b5456f13d3432ff73f79dae7758e00b11be016b748d71e807ccd11d27865ac756f63f7b89128182bc5789c6b0dc6694fa07b7632aa757c49",
+          "sha256": "feb3229b4347b5115409514508871dff6c70ff8dc8540fdcc2c5cca42d2dfb9d",
+          "sha1": "d6a773e55b7646306af74e266b045e3c4135a4f5",
+          "md5": "3083c902d1ed32f6978d6f30b7927ff2"
         }
       ]
     },
@@ -117,11 +117,11 @@
         {
           "name": "library-iosarm64-1.0.0-sources.jar",
           "url": "network-inspection-pro-iosarm64-1.0.0-sources.jar",
-          "size": 19855,
-          "sha512": "9813d3971bc5429336f5bf8f29f3247d2d17d87c6dc2ed8c53f60e310b7491a7840406a2446f50bfa667261a0d13996af0181a4426a4641bf474d5385697741e",
-          "sha256": "fcae6193465eda274276c3ab6cce43d604ca597442a8a76fe5f2b75b50faba3f",
-          "sha1": "62a4bee93ff870a7cc5046dec1d1dd8232b3e3c7",
-          "md5": "b680517d29cb3dc7e2518cb8a9905f76"
+          "size": 21297,
+          "sha512": "71453ab1301465bb27e8bc8c5a333a42fdc2b1278e7db752c14f38c0f13b66dc136b1d15f2a4a4863733d7f399c3340930f517dcc0232145ffba91ddf032de7c",
+          "sha256": "b6b89485b3c8430c598f35bd801604450b0abf06dbea9a4d97e21378669814ae",
+          "sha1": "0c34a6af6b45eb05f4044757d69dd4797090f1c1",
+          "md5": "3a25656344d89588b1fcba7390de6d8d"
         }
       ]
     },

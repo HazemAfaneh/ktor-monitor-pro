@@ -54,12 +54,13 @@ fun NetworkInspectorOverlay(
                 if (selectedEntryId != null) {
                     NetworkInspectorDetailScreen(
                         logEntryId = selectedEntryId!!,
-                        onBack = { viewModel.onEntrySelected(null) }
+                        onBack = { viewModel.onEntryIdSelected(null) }
                     )
                 } else {
                     NetworkInspectorListScreen(
                         viewModel = viewModel,
-                        onEntryClick = { viewModel.onEntrySelected(it) }
+                        onNavigateToDetail = { viewModel.onEntryIdSelected(it) },
+                        onBack = { isVisible = false }
                     )
                 }
             }
