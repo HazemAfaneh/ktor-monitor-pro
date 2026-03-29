@@ -68,7 +68,7 @@ internal fun NetworkInspectorListScreen(
             topBar = {
                 TopAppBar(
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = MaterialTheme.colorScheme.primaryContainer
+                        containerColor = MaterialTheme.colorScheme.primary
                     ),
                     navigationIcon = {
                         IconButton(onClick = onBack) {
