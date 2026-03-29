@@ -7,7 +7,10 @@
       "Bash(./gradlew :library:assembleDebug)",
       "Bash(./gradlew :library:linkDebugFrameworkIosSimulatorArm64)",
       "Bash(./gradlew :library:tasks)",
-      "Bash(./gradlew :library:iosSimulatorArm64MainBinaries)"
+      "Bash(./gradlew :library:iosSimulatorArm64MainBinaries)",
+      "Bash(./gradlew :library:compileKotlinAndroid)",
+      "Bash(./gradlew :library:compileDebugKotlinAndroid)",
+      "Bash(./gradlew :library:compileKotlinIosSimulatorArm64)"
     ]
   }
 }

@@ -5,6 +5,9 @@ import kotlinx.cinterop.alloc
 import kotlinx.cinterop.memScoped
 import kotlinx.cinterop.ptr
 import kotlinx.serialization.json.Json
+import platform.Foundation.NSDate
+import platform.Foundation.NSDateFormatter
+import platform.Foundation.dateWithTimeIntervalSince1970
 import platform.posix.gettimeofday
 import platform.posix.timeval
 
@@ -22,4 +25,11 @@ actual fun formatJson(raw: String): String = try {
     prettyJson.encodeToString(kotlinx.serialization.json.JsonElement.serializer(), element)
 } catch (_: Exception) {
     raw
+}
+
+actual fun formatTimestamp(ms: Long): String {
+    val formatter = NSDateFormatter()
+    formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+    val date = NSDate.dateWithTimeIntervalSince1970(ms / 1000.0)
+    return formatter.stringFromDate(date)
 }

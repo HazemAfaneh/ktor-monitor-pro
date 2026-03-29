@@ -24,7 +24,7 @@ internal fun MethodBadge(method: String) {
     Text(
         text = method.uppercase(),
         color = Color.White,
-        fontSize = 11.sp,
+        fontSize = 10.sp,
         fontWeight = FontWeight.Bold,
         modifier = Modifier
             .background(color, RoundedCornerShape(4.dp))

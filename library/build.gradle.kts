@@ -54,7 +54,10 @@ android {
 
 mavenPublishing {
     publishToMavenCentral()
-    signAllPublications()
+    if (project.hasProperty("signing.keyId") ||
+        System.getenv("ORG_GRADLE_PROJECT_signingInMemoryKey") != null) {
+        signAllPublications()
+    }
     coordinates(group.toString(), "network-inspection-pro", version.toString())
     pom {
         name = "NetworkInspectionPro"

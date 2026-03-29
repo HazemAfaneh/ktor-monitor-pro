@@ -19,8 +19,8 @@ internal class NetworkInspectorViewModel {
     private val _searchQuery = MutableStateFlow("")
     val searchQuery: StateFlow<String> = _searchQuery.asStateFlow()
 
-    private val _selectedEntry = MutableStateFlow<NetworkLogEntry?>(null)
-    val selectedEntry: StateFlow<NetworkLogEntry?> = _selectedEntry.asStateFlow()
+    private val _selectedEntryId = MutableStateFlow<String?>(null)
+    val selectedEntryId: StateFlow<String?> = _selectedEntryId.asStateFlow()
 
     val filteredEntries: StateFlow<List<NetworkLogEntry>> = combine(
         NetworkLogStore.entries,
@@ -39,7 +39,7 @@ internal class NetworkInspectorViewModel {
     }
 
     fun onEntrySelected(entry: NetworkLogEntry?) {
-        _selectedEntry.value = entry
+        _selectedEntryId.value = entry?.id
     }
 
     fun onDestroy() {

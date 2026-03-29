@@ -49,11 +49,11 @@ fun NetworkInspectorOverlay(
             enter = slideInVertically(initialOffsetY = { it }),
             exit = slideOutVertically(targetOffsetY = { it })
         ) {
-            val selectedEntry by viewModel.selectedEntry.collectAsState()
+            val selectedEntryId by viewModel.selectedEntryId.collectAsState()
             Box(modifier = Modifier.fillMaxSize()) {
-                if (selectedEntry != null) {
+                if (selectedEntryId != null) {
                     NetworkInspectorDetailScreen(
-                        entry = selectedEntry!!,
+                        logEntryId = selectedEntryId!!,
                         onBack = { viewModel.onEntrySelected(null) }
                     )
                 } else {
