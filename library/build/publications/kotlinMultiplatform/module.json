@@ -91,11 +91,11 @@
         {
           "name": "library-metadata-1.0.0.jar",
           "url": "network-inspection-pro-1.0.0.jar",
-          "size": 12939,
-          "sha512": "ca73824bddc572760a47c5816876d255008bbb3bf7a57dae945ad5bb576471aaa5aabe53a8c66544990bb646788e3c9a08a135682cc820afd1dbd8f8e60025c7",
-          "sha256": "1dfe204c238fe6acb58f6979e959b5376e0e2442361762edaf84bf30d7db57ac",
-          "sha1": "ca19dfbf4bff9a3e4ee6994122ea00b5490a315d",
-          "md5": "ea54823f7fe037c67c091c84d7eb3b7a"
+          "size": 13492,
+          "sha512": "1f38ba5d75ad6bd7eaf10a7e271c7f9632891e916493c3032f1e525393fb672e1d1788f737a8af00ada6855d24ff59b965c0d51b97b33ff045d00b439d207e50",
+          "sha256": "10dd4e9b24de27d1d8917f490c6c3e2729ebc3d03e98fc8eb35661270173fe7b",
+          "sha1": "b819107e7205fcfccaeb9822e9a85d46fbfbc969",
+          "md5": "fde6395d477deecd8624955f1ded7696"
         }
       ]
     },
@@ -113,11 +113,11 @@
         {
           "name": "library-kotlin-1.0.0-sources.jar",
           "url": "network-inspection-pro-1.0.0-sources.jar",
-          "size": 21294,
-          "sha512": "ccbd9a7d6f37127ad914f43a28d4686fd1a39bb08061e689655429f2f46f5f55b0cf6bb493ea4a549dc99b5b9c50ae6b7f9776c5da7eba818e1835d3243653bf",
-          "sha256": "ec498fe8a0c31cfc07b04d253e4c6de6ca695a24d6139ca22ed8d03a58328821",
-          "sha1": "2212a3b20c2783297b1e073a021da7e00d8b3a0c",
-          "md5": "fe0f161acd9f87e4c44a19ba1d95c37f"
+          "size": 22351,
+          "sha512": "fbb1d9bb2aed9df0b6c10dce919a066cd9e5d684351dcb9bb98eb57944d2619a30dcad93c789fbdd228022c809724eba7302869ff8188b3166af3adbec31e9d5",
+          "sha256": "dfe9a76248d7f276215249db07c3f6b1501f7e35b7b7fe7214a34e21c58e7141",
+          "sha1": "64c42c74e6e6208408cd318efdcfe473c5b95926",
+          "md5": "c9cdd0f7cbcbc4782bb641f0ce779ff7"
         }
       ]
     },

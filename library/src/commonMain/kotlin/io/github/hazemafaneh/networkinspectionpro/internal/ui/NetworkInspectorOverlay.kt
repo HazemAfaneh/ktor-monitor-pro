@@ -50,6 +50,13 @@ fun NetworkInspectorOverlay(
             exit = slideOutVertically(targetOffsetY = { it })
         ) {
             val selectedEntryId by viewModel.selectedEntryId.collectAsState()
+            BackHandler(enabled = isVisible) {
+                if (selectedEntryId != null) {
+                    viewModel.onEntryIdSelected(null)
+                } else {
+                    isVisible = false
+                }
+            }
             Box(modifier = Modifier.fillMaxSize()) {
                 if (selectedEntryId != null) {
                     NetworkInspectorDetailScreen(

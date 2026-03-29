@@ -15,6 +15,7 @@ ktor-client-core             = { module = "io.ktor:ktor-client-core", version.re
 kotlinx-serialization-json   = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
 kotlinx-coroutines-core      = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-android   = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
+androidx-activity-compose    = { module = "androidx.activity:activity-compose", version = "1.9.3" }
 
 [plugins]
 androidLibrary        = { id = "com.android.library",                           version.ref = "agp" }

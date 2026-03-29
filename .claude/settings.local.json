@@ -10,7 +10,8 @@
       "Bash(./gradlew :library:iosSimulatorArm64MainBinaries)",
       "Bash(./gradlew :library:compileKotlinAndroid)",
       "Bash(./gradlew :library:compileDebugKotlinAndroid)",
-      "Bash(./gradlew :library:compileKotlinIosSimulatorArm64)"
+      "Bash(./gradlew :library:compileKotlinIosSimulatorArm64)",
+      "Bash(./gradlew :library:dependencies --configuration androidMainImplementationDependenciesMetadata)"
     ]
   }
 }
