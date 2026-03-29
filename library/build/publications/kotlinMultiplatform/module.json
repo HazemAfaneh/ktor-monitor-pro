@@ -113,11 +113,11 @@
         {
           "name": "library-kotlin-1.0.0-sources.jar",
           "url": "network-inspection-pro-1.0.0-sources.jar",
-          "size": 22351,
-          "sha512": "fbb1d9bb2aed9df0b6c10dce919a066cd9e5d684351dcb9bb98eb57944d2619a30dcad93c789fbdd228022c809724eba7302869ff8188b3166af3adbec31e9d5",
-          "sha256": "dfe9a76248d7f276215249db07c3f6b1501f7e35b7b7fe7214a34e21c58e7141",
-          "sha1": "64c42c74e6e6208408cd318efdcfe473c5b95926",
-          "md5": "c9cdd0f7cbcbc4782bb641f0ce779ff7"
+          "size": 22715,
+          "sha512": "7a389e97f9fdb8063fc225fc3c47d779d5a898d3e96b12762c4567daf962cae7b5ecce2d70583b44887113fad78ef461019233ef6e0577d7197186d6734eb003",
+          "sha256": "426bd5410ce3fe43719266250f9c0d50e305544176bbf5b95875609f4504f04e",
+          "sha1": "9577bd43440c7acd205fe30c2dbe1d0115548189",
+          "md5": "cf3814f2138515a432b3c1fd2dd8eff0"
         }
       ]
     },

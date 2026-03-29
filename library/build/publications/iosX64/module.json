@@ -94,11 +94,11 @@
         {
           "name": "library-iosX64Main-1.0.0.klib",
           "url": "network-inspection-pro-iosx64-1.0.0.klib",
-          "size": 170005,
-          "sha512": "1cfca384a6b6a72f852e90d8eb0e8fff73c442bb76da46f0bc6e8850877632f0c6b3a1405f18d7c2c56faad06ac98cfa37812935c415765e03925853592e500e",
-          "sha256": "7af5c55899e84e37e39b5f88a1b31898d633b5335bda0c5c575c9fb2c0912e79",
-          "sha1": "2169b1f5944c951269cf98cdf02f12a872b0b1ef",
-          "md5": "82d31c00329ee00fd94eb64e6e32a308"
+          "size": 172810,
+          "sha512": "a372a3f66babb175698d17209f0ce1c0949340d21b3e30691dcb9d36e905bc6ad02f3afb88db6232d211d41674ab4043d1e6b045f4e2aacb8d5a01cabaaca61e",
+          "sha256": "445b5c7e799d9d8b2c5dfbd535ecb17d640cf65f4d8c5c68db52a31da0b1204b",
+          "sha1": "e431972fcb35af6e9c52c5063a8fbd595cd0860a",
+          "md5": "6c3f78584c359808f7ce26b4da9ce409"
         }
       ]
     },
@@ -117,11 +117,11 @@
         {
           "name": "library-iosx64-1.0.0-sources.jar",
           "url": "network-inspection-pro-iosx64-1.0.0-sources.jar",
-          "size": 22351,
-          "sha512": "8655081d7a8650f930faf19af923250c62a18d8a6557809ee1f2a6334da7ecb4ed53bbeb30d1a118fb44ba74d9ce02e26ca28d128be73e9defeb88f68a2e0111",
-          "sha256": "5b83982869dac66bb5840697d0c11ad2c10e9e95c46fb9326abe2afc7f7a9728",
-          "sha1": "54ba2e5fe93fd2397b41d7732e48e4dd118ceb2d",
-          "md5": "0d655bc111bdac46624ed0bef249b31e"
+          "size": 22715,
+          "sha512": "647318af1619ceb21d06376fe33762e45220e25f8d0afdcfd161ea228f7700eb143b58fedfee7241f25c29b7e32cb06984884598017faee93b0fc83f2e536daa",
+          "sha256": "e8e4d408d05b20593a43c19b761688a5497e46082f12d78e0a4e566ec1467486",
+          "sha1": "7c9bfef7bc90bbf168ef78bf6a120d523ca8439f",
+          "md5": "62a6a7bdb62d1048c22947f7e3267a3c"
         }
       ]
     },
@@ -292,11 +292,11 @@
         {
           "name": "library-iosx64-1.0.0-metadata.jar",
           "url": "network-inspection-pro-iosx64-1.0.0-metadata.jar",
-          "size": 4553,
-          "sha512": "f09575ff2b5b70ccb73b1110c3ea5facd34ce7af5986229bc6a05c76071959f29b401b5209b897334d9cf2b8f4afb3eb6bf1beda37db3c2857fb99515936f001",
-          "sha256": "e7c70dbba14c0ad5b3289b498b7c7523723ae520b2fca5565e74ab41ad411c83",
-          "sha1": "4502b76bb26bad948c1aed35e90219731caf2ab5",
-          "md5": "d12cebcce7d3868947e9fb4a4aec5247"
+          "size": 4595,
+          "sha512": "7e6973f7deb5d0be7a172d9493962b19774a1bfb19fc11320bdfccd5484f3c9d25d29b2035d31ff527c8edb9bbee7dcb73f399c0f10f8a204288efe2c181153c",
+          "sha256": "f954e36b63b2b081ad1d899c005ccdb1243b1fab92bb5c84f92cac24576cdfce",
+          "sha1": "981522f8add0545e27a15f7b03a44927f0adc753",
+          "md5": "682f5e701f9f678a48457556044d24bb"
         }
       ]
     }
