@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../network-inspection-pro/1.0.0/network-inspection-pro-1.0.0.module",
+    "url": "../../network-inspection-pro/0.1.0/network-inspection-pro-0.1.0.module",
     "group": "io.github.hazemafaneh",
     "module": "network-inspection-pro",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -35,7 +35,7 @@
       "files": [
         {
           "name": "library-release.aar",
-          "url": "network-inspection-pro-android-1.0.0.aar",
+          "url": "network-inspection-pro-android-0.1.0.aar",
           "size": 257797,
           "sha512": "3a35a04796ac671a1ff6aed2dd549e62674f35e7bf9ed490c7ef37a632853a546ec45f48f08f889944436e47a4b6aee5b3962396f148d8a7cc57ae559ee84252",
           "sha256": "43e8fab105ed60958f11ee62c899cf20483b6f563bac9e0af8eb95770e7313ce",
@@ -288,7 +288,7 @@
       "files": [
         {
           "name": "library-release.aar",
-          "url": "network-inspection-pro-android-1.0.0.aar",
+          "url": "network-inspection-pro-android-0.1.0.aar",
           "size": 257797,
           "sha512": "3a35a04796ac671a1ff6aed2dd549e62674f35e7bf9ed490c7ef37a632853a546ec45f48f08f889944436e47a4b6aee5b3962396f148d8a7cc57ae559ee84252",
           "sha256": "43e8fab105ed60958f11ee62c899cf20483b6f563bac9e0af8eb95770e7313ce",
@@ -310,8 +310,8 @@
       },
       "files": [
         {
-          "name": "library-android-1.0.0-sources.jar",
-          "url": "network-inspection-pro-android-1.0.0-sources.jar",
+          "name": "library-android-0.1.0-sources.jar",
+          "url": "network-inspection-pro-android-0.1.0-sources.jar",
           "size": 23294,
           "sha512": "1101c68b86a903a354c6705a443e616da95953ea0a3728c1650f08c22ba8794b0478a5578227aeace82fc3e2167cac50151a4df40eb36602a2f603788a2fd71c",
           "sha256": "51b58df9e8cde8904f325f9851fa2dc8ae0b9e565ec98229defc81f28a6e5b2c",

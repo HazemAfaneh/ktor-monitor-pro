@@ -3,7 +3,7 @@
   "component": {
     "group": "io.github.hazemafaneh",
     "module": "network-inspection-pro",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -89,8 +89,8 @@
       ],
       "files": [
         {
-          "name": "library-metadata-1.0.0.jar",
-          "url": "network-inspection-pro-1.0.0.jar",
+          "name": "library-metadata-0.1.0.jar",
+          "url": "network-inspection-pro-0.1.0.jar",
           "size": 13492,
           "sha512": "1f38ba5d75ad6bd7eaf10a7e271c7f9632891e916493c3032f1e525393fb672e1d1788f737a8af00ada6855d24ff59b965c0d51b97b33ff045d00b439d207e50",
           "sha256": "10dd4e9b24de27d1d8917f490c6c3e2729ebc3d03e98fc8eb35661270173fe7b",
@@ -111,13 +111,13 @@
       },
       "files": [
         {
-          "name": "library-kotlin-1.0.0-sources.jar",
-          "url": "network-inspection-pro-1.0.0-sources.jar",
-          "size": 22715,
-          "sha512": "7a389e97f9fdb8063fc225fc3c47d779d5a898d3e96b12762c4567daf962cae7b5ecce2d70583b44887113fad78ef461019233ef6e0577d7197186d6734eb003",
-          "sha256": "426bd5410ce3fe43719266250f9c0d50e305544176bbf5b95875609f4504f04e",
-          "sha1": "9577bd43440c7acd205fe30c2dbe1d0115548189",
-          "md5": "cf3814f2138515a432b3c1fd2dd8eff0"
+          "name": "library-kotlin-0.1.0-sources.jar",
+          "url": "network-inspection-pro-0.1.0-sources.jar",
+          "size": 22422,
+          "sha512": "25add997411829b263d72308b1ea02794ecc7978cfa66a394c0d9813f2b4e46ba5562d382bbc2b28dc66ce489d94d6f6477023eda81761290ae3a640dd0daae4",
+          "sha256": "da2fa6aa721e745025fb278338788197a81a27811ae94b929acf66da61d2f1fb",
+          "sha1": "b2288a886b78fdf96c1c3cb97eb563dc33838450",
+          "md5": "ae2405afb9208624318c61ad69ef9d11"
         }
       ]
     },
@@ -130,10 +130,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-android/1.0.0/network-inspection-pro-android-1.0.0.module",
+        "url": "../../network-inspection-pro-android/0.1.0/network-inspection-pro-android-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-android",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -145,10 +145,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-android/1.0.0/network-inspection-pro-android-1.0.0.module",
+        "url": "../../network-inspection-pro-android/0.1.0/network-inspection-pro-android-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-android",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -163,10 +163,10 @@
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-android/1.0.0/network-inspection-pro-android-1.0.0.module",
+        "url": "../../network-inspection-pro-android/0.1.0/network-inspection-pro-android-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-android",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -180,10 +180,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iosarm64/1.0.0/network-inspection-pro-iosarm64-1.0.0.module",
+        "url": "../../network-inspection-pro-iosarm64/0.1.0/network-inspection-pro-iosarm64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iosarm64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -198,10 +198,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iosarm64/1.0.0/network-inspection-pro-iosarm64-1.0.0.module",
+        "url": "../../network-inspection-pro-iosarm64/0.1.0/network-inspection-pro-iosarm64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iosarm64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -216,10 +216,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iosarm64/1.0.0/network-inspection-pro-iosarm64-1.0.0.module",
+        "url": "../../network-inspection-pro-iosarm64/0.1.0/network-inspection-pro-iosarm64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iosarm64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -233,10 +233,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iosarm64/1.0.0/network-inspection-pro-iosarm64-1.0.0.module",
+        "url": "../../network-inspection-pro-iosarm64/0.1.0/network-inspection-pro-iosarm64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iosarm64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -250,10 +250,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iossimulatorarm64/1.0.0/network-inspection-pro-iossimulatorarm64-1.0.0.module",
+        "url": "../../network-inspection-pro-iossimulatorarm64/0.1.0/network-inspection-pro-iossimulatorarm64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iossimulatorarm64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -268,10 +268,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iossimulatorarm64/1.0.0/network-inspection-pro-iossimulatorarm64-1.0.0.module",
+        "url": "../../network-inspection-pro-iossimulatorarm64/0.1.0/network-inspection-pro-iossimulatorarm64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iossimulatorarm64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -286,10 +286,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iossimulatorarm64/1.0.0/network-inspection-pro-iossimulatorarm64-1.0.0.module",
+        "url": "../../network-inspection-pro-iossimulatorarm64/0.1.0/network-inspection-pro-iossimulatorarm64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iossimulatorarm64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -303,10 +303,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iossimulatorarm64/1.0.0/network-inspection-pro-iossimulatorarm64-1.0.0.module",
+        "url": "../../network-inspection-pro-iossimulatorarm64/0.1.0/network-inspection-pro-iossimulatorarm64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iossimulatorarm64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -320,10 +320,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iosx64/1.0.0/network-inspection-pro-iosx64-1.0.0.module",
+        "url": "../../network-inspection-pro-iosx64/0.1.0/network-inspection-pro-iosx64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iosx64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -338,10 +338,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iosx64/1.0.0/network-inspection-pro-iosx64-1.0.0.module",
+        "url": "../../network-inspection-pro-iosx64/0.1.0/network-inspection-pro-iosx64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iosx64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -356,10 +356,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iosx64/1.0.0/network-inspection-pro-iosx64-1.0.0.module",
+        "url": "../../network-inspection-pro-iosx64/0.1.0/network-inspection-pro-iosx64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iosx64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     },
     {
@@ -373,10 +373,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../network-inspection-pro-iosx64/1.0.0/network-inspection-pro-iosx64-1.0.0.module",
+        "url": "../../network-inspection-pro-iosx64/0.1.0/network-inspection-pro-iosx64-0.1.0.module",
         "group": "io.github.hazemafaneh",
         "module": "network-inspection-pro-iosx64",
-        "version": "1.0.0"
+        "version": "0.1.0"
       }
     }
   ]

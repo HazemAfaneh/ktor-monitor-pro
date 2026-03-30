@@ -59,7 +59,7 @@ This is a Kotlin Multiplatform library targeting Android and iOS.
 ```kotlin
 // app/build.gradle.kts
 dependencies {
-    debugImplementation("io.github.hazemafaneh:network-inspection-pro:1.0.0")
+    debugImplementation("io.github.hazemafaneh:network-inspection-pro:0.1.0")
 }
 ```
 
@@ -75,13 +75,13 @@ kotlin {
         iosTarget.binaries.framework {
             baseName = "shared"
             isStatic = true
-            export("io.github.hazemafaneh:network-inspection-pro:1.0.0") // (1)
+            export("io.github.hazemafaneh:network-inspection-pro:0.1.0") // (1)
         }
     }
 
     sourceSets {
         commonMain.dependencies {
-            api("io.github.hazemafaneh:network-inspection-pro:1.0.0") // (2)
+            api("io.github.hazemafaneh:network-inspection-pro:0.1.0") // (2)
         }
         androidMain.dependencies {
             implementation("io.ktor:ktor-client-okhttp:3.1.3")

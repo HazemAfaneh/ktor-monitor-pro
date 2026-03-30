@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.hazemafaneh.networkinspectionpro.NetworkLogEntryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-03-30T08:54:59.622Z" hostname="Hazems-MacBook-Pro.local" time="0.035">
+  <properties/>
+  <testcase name="default values are applied correctly" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogEntryTest" time="0.011"/>
+  <testcase name="serialization round-trip with null optional fields" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogEntryTest" time="0.021"/>
+  <testcase name="isError flag is preserved" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogEntryTest" time="0.002"/>
+  <testcase name="serialization round-trip preserves all fields" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogEntryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

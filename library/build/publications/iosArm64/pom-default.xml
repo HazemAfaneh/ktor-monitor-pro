@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.hazemafaneh</groupId>
   <artifactId>network-inspection-pro-iosarm64</artifactId>
-  <version>1.0.0</version>
+  <version>0.1.0</version>
   <packaging>klib</packaging>
   <name>NetworkInspectionPro</name>
   <description>A Kotlin Multiplatform Ktor network inspector with a shake-to-open Compose UI.</description>

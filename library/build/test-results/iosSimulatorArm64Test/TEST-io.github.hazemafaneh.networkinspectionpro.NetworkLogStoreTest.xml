@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.hazemafaneh.networkinspectionpro.NetworkLogStoreTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-03-30T08:57:52.327Z" hostname="Hazems-MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="empty by default[iosSimulatorArm64]" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogStoreTest" time="0.0"/>
+  <testcase name="addOrUpdate adds new entry[iosSimulatorArm64]" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogStoreTest" time="0.0"/>
+  <testcase name="addOrUpdate appends multiple distinct entries[iosSimulatorArm64]" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogStoreTest" time="0.0"/>
+  <testcase name="addOrUpdate replaces existing entry with same id[iosSimulatorArm64]" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogStoreTest" time="0.0"/>
+  <testcase name="addOrUpdate preserves order when updating[iosSimulatorArm64]" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogStoreTest" time="0.0"/>
+  <testcase name="clear removes all entries[iosSimulatorArm64]" classname="io.github.hazemafaneh.networkinspectionpro.NetworkLogStoreTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../network-inspection-pro/1.0.0/network-inspection-pro-1.0.0.module",
+    "url": "../../network-inspection-pro/0.1.0/network-inspection-pro-0.1.0.module",
     "group": "io.github.hazemafaneh",
     "module": "network-inspection-pro",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -92,13 +92,13 @@
       ],
       "files": [
         {
-          "name": "library-iosSimulatorArm64Main-1.0.0.klib",
-          "url": "network-inspection-pro-iossimulatorarm64-1.0.0.klib",
-          "size": 172912,
-          "sha512": "ab5a73cb94912ed5d6a44dbb6e8b11670a56c75f50a4eaf692e2c90d8f6f4201992533c3d715842084750a44eb98e8953b06831e63febce5166b252e02900a6e",
-          "sha256": "5c7d08f0c5e07b09f9ed0f870e67cf7346de4e60b37e46db50fbfb91ec47b8db",
-          "sha1": "008b7a675908787cce94570c3d5f42990dc9c213",
-          "md5": "8d56939f379d3b94df6e23a3468a71cb"
+          "name": "library-iosSimulatorArm64Main-0.1.0.klib",
+          "url": "network-inspection-pro-iossimulatorarm64-0.1.0.klib",
+          "size": 171456,
+          "sha512": "64a7456c752800b3ecea80b33cad8cbb35bdc5e0d778098fc3e5dd58a6d0d17deda6e1a558b99abb06dacfa2d2d3cfd465dcf07c2b754c9ac8b74c333d376e91",
+          "sha256": "d036c9cb86987013922d976bcb8f39acc6adcf2e79f4bdc632768c2a711e1473",
+          "sha1": "c4de57f0bfd9ecc5af3abd4187aa4ae382e7fa0e",
+          "md5": "3bb7ff5916d8d28ee01029986883a173"
         }
       ]
     },
@@ -115,13 +115,13 @@
       },
       "files": [
         {
-          "name": "library-iossimulatorarm64-1.0.0-sources.jar",
-          "url": "network-inspection-pro-iossimulatorarm64-1.0.0-sources.jar",
-          "size": 22715,
-          "sha512": "647318af1619ceb21d06376fe33762e45220e25f8d0afdcfd161ea228f7700eb143b58fedfee7241f25c29b7e32cb06984884598017faee93b0fc83f2e536daa",
-          "sha256": "e8e4d408d05b20593a43c19b761688a5497e46082f12d78e0a4e566ec1467486",
-          "sha1": "7c9bfef7bc90bbf168ef78bf6a120d523ca8439f",
-          "md5": "62a6a7bdb62d1048c22947f7e3267a3c"
+          "name": "library-iossimulatorarm64-0.1.0-sources.jar",
+          "url": "network-inspection-pro-iossimulatorarm64-0.1.0-sources.jar",
+          "size": 22422,
+          "sha512": "49c1841abb88b7f53bc81c279c0eaa4d08d80a7ac69034fde1dc0eb9292c71ac776eaca2d70da56497661feb55a0c14ac2f3f94e0233307ebddae82880a846a5",
+          "sha256": "b013c8dd04feb585742f15fda8640ea083f1400c7735db7711c6c5d172943c99",
+          "sha1": "2e04e513cccef7add454fa82f28832078c7db6ba",
+          "md5": "fded241098619d171c80d53ef22389e6"
         }
       ]
     },
@@ -203,13 +203,13 @@
       ],
       "files": [
         {
-          "name": "library-1.0.0.kotlin_resources.zip",
-          "url": "network-inspection-pro-iossimulatorarm64-1.0.0-kotlin_resources.kotlin_resources.zip",
+          "name": "library-0.1.0.kotlin_resources.zip",
+          "url": "network-inspection-pro-iossimulatorarm64-0.1.0-kotlin_resources.kotlin_resources.zip",
           "size": 346,
-          "sha512": "5e7c8a9670b9e749346b156b2c1a3540c9278994121ce99d638787ef8c0b4a0f973aca93740ba99185496a144fb63dbf3c6682cf53d2d30afc8b4e99d27ee7e8",
-          "sha256": "f29877d1387479c0fed5078fc27eb655016772eb08c54fb80015964421f1e280",
-          "sha1": "be7903c34f3320edf53174194d03b7a73988c4b0",
-          "md5": "aded1255f620702a8fb550d94d2e2b03"
+          "sha512": "b5db5fb830100ec46c43167a0bed65093c7e2286117b79e88cf217d4f966f403b09a2033ce5c6a2d39ffc9647f403d55eee294833fc2823e5c7b71bce5a9229c",
+          "sha256": "78c2951ca84e3771e8e3f875e1659c6bde127b181a1a55fd8a8533f91f2d7e59",
+          "sha1": "ae608c71bf959f99cc7feecbd1e65961b59bb510",
+          "md5": "adcdec232ffef5435dfd3911c9f9a440"
         }
       ]
     },
@@ -290,13 +290,13 @@
       ],
       "files": [
         {
-          "name": "library-iossimulatorarm64-1.0.0-metadata.jar",
-          "url": "network-inspection-pro-iossimulatorarm64-1.0.0-metadata.jar",
-          "size": 4595,
-          "sha512": "7e6973f7deb5d0be7a172d9493962b19774a1bfb19fc11320bdfccd5484f3c9d25d29b2035d31ff527c8edb9bbee7dcb73f399c0f10f8a204288efe2c181153c",
-          "sha256": "f954e36b63b2b081ad1d899c005ccdb1243b1fab92bb5c84f92cac24576cdfce",
-          "sha1": "981522f8add0545e27a15f7b03a44927f0adc753",
-          "md5": "682f5e701f9f678a48457556044d24bb"
+          "name": "library-iossimulatorarm64-0.1.0-metadata.jar",
+          "url": "network-inspection-pro-iossimulatorarm64-0.1.0-metadata.jar",
+          "size": 4576,
+          "sha512": "c14a503a879da65817096ad87608db0f0b79e99e90bd23380d88cd68db3c764dfdfbcb756daf4bbea0684aeb378be4b1d1cfc963fb9d7134d30ba812d4a2dc92",
+          "sha256": "db6a7a0a016ec32f9d18c1229e8413544050ef56f609c15722d1568a8008c5c8",
+          "sha1": "70e6c5ebea59555d2632dca2c94d4fae9200d92a",
+          "md5": "4b80b2be8ab419d6171dbebc97de4cf7"
         }
       ]
     }
