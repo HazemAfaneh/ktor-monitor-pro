@@ -1,37 +1,168 @@
 # NetworkInspectionPro
 
-A zero-setup Kotlin Multiplatform Ktor HTTP traffic inspector with a Compose Multiplatform UI. Shake the device to open the inspector overlay. Completely passive in release builds.
+A Kotlin Multiplatform Ktor HTTP traffic inspector with a Compose Multiplatform UI.
+Shake the device to open the inspector overlay. Zero overhead in release builds.
 
-## What is it?
+## Project Structure
 
-NetworkInspectionPro is a KMP library that plugs into the Ktor HTTP client as a plugin. It captures every request and response, stores them in memory, and presents them in a beautiful Compose UI that slides in when you shake your device — no buttons to add, no deep links to configure.
+This is a Kotlin Multiplatform library targeting Android and iOS.
+
+* [/library](./library/src) contains all library source code.
+  - [commonMain](./library/src/commonMain/kotlin) — shared logic for all platforms: Ktor plugin, overlay UI, view model, and shared utilities.
+  - [androidMain](./library/src/androidMain/kotlin) — Android-specific implementations: accelerometer-based shake detection and context initialization.
+  - [iosMain](./library/src/iosMain/kotlin) — iOS-specific implementations: CoreMotion-based shake detection and platform utilities.
+  - [commonTest](./library/src/commonTest/kotlin) — shared unit tests.
+
+---
+
+## Build
+
+### Publish to Maven Local (for local testing)
+
+```shell
+./gradlew :library:publishToMavenLocal
+```
+
+### Run tests
+
+```shell
+./gradlew :library:allTests
+```
+
+---
 
 ## Features
 
-- Intercepts all Ktor HTTP traffic (method, URL, headers, body, status, duration)
+- Intercepts all Ktor HTTP traffic — method, URL, headers, body, status code, duration
 - Shake-to-open inspector overlay (accelerometer on Android, CoreMotion on iOS)
-- Searchable list of requests with color-coded method and status badges
+- Searchable request list with color-coded method and status badges
 - Detail view with Overview / Request / Response tabs and pretty-printed JSON
-- Zero-overhead in release builds — just don't call `init()` / `enable()`
+- Zero cost in release builds — nothing runs until you call `enable()`
 - Kotlin Multiplatform: Android + iOS
+
+## Requirements
+
+| | Minimum |
+|---|---|
+| Android | API 24 |
+| iOS | iOS 14 |
+| Kotlin | 2.1.21 |
+| Ktor | 3.1.3 |
+| Compose Multiplatform | 1.8.1 |
+
+---
 
 ## Installation
 
+### Android-only project
+
 ```kotlin
-// build.gradle.kts
+// app/build.gradle.kts
 dependencies {
     debugImplementation("io.github.hazemafaneh:network-inspection-pro:1.0.0")
 }
 ```
 
-## Setup
+### Kotlin Multiplatform project
 
-### Android
+```kotlin
+// shared/build.gradle.kts
+kotlin {
+    listOf(
+        iosArm64(),
+        iosSimulatorArm64()
+    ).forEach { iosTarget ->
+        iosTarget.binaries.framework {
+            baseName = "shared"
+            isStatic = true
+            export("io.github.hazemafaneh:network-inspection-pro:1.0.0") // (1)
+        }
+    }
 
-In your `Application.onCreate()` (or debug-only initializer):
+    sourceSets {
+        commonMain.dependencies {
+            api("io.github.hazemafaneh:network-inspection-pro:1.0.0") // (2)
+        }
+        androidMain.dependencies {
+            implementation("io.ktor:ktor-client-okhttp:3.1.3")
+        }
+        iosMain.dependencies {
+            implementation("io.ktor:ktor-client-darwin:3.1.3")
+        }
+    }
+}
+```
+
+> **(1)** `export()` includes the library symbols in the generated `.framework` so Swift can import `NetworkInspectionPro` directly.
+> **(2)** `api()` instead of `implementation()` is required for the `export()` to take effect.
+
+---
+
+## How to Use
+
+### 1. Install the Ktor plugin
+
+Add `NetworkInspectorPlugin` when building your `HttpClient`. This is what captures every request and response.
+
+```kotlin
+import io.github.hazemafaneh.networkinspectionpro.NetworkInspectorPlugin
+import io.ktor.client.HttpClient
+import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.serialization.kotlinx.json.json
+
+val client = HttpClient {
+    install(NetworkInspectorPlugin)
+    install(ContentNegotiation) {
+        json()
+    }
+}
+```
+
+### 2. Wrap your root composable
+
+`NetworkInspectorOverlay` renders your UI untouched. When enabled and the device is shaken, the inspector panel slides in over your content.
+
+**Android**
+
+```kotlin
+import io.github.hazemafaneh.networkinspectionpro.internal.ui.NetworkInspectorOverlay
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            NetworkInspectorOverlay {
+                App()
+            }
+        }
+    }
+}
+```
+
+**iOS (KMP shared module)**
+
+```kotlin
+import androidx.compose.ui.window.ComposeUIViewController
+import io.github.hazemafaneh.networkinspectionpro.internal.ui.NetworkInspectorOverlay
+
+fun MainViewController() = ComposeUIViewController {
+    NetworkInspectorOverlay {
+        App()
+    }
+}
+```
+
+### 3. Enable the library
+
+The library is **opt-in** — it does nothing until you call `enable()`. This lets you include it in all build types and only turn it on in debug.
+
+**Android — call `init(context)` in your `Application`**
+
+`init()` stores the application context (needed for shake detection) and calls `enable()` internally.
 
 ```kotlin
 import io.github.hazemafaneh.networkinspectionpro.NetworkInspectionPro
+import io.github.hazemafaneh.networkinspectionpro.init
 
 class MyApp : Application() {
     override fun onCreate() {
@@ -43,53 +174,53 @@ class MyApp : Application() {
 }
 ```
 
-### iOS
-
-In your `AppDelegate` or SwiftUI `App` init (debug only):
-
-```kotlin
-// Kotlin side — call from Swift/ObjC
-NetworkInspectionPro.shared.enable()
-```
+**iOS — call `enable()` from your SwiftUI `App`**
 
 ```swift
-// Swift (AppDelegate or @main App)
-#if DEBUG
-NetworkInspectionPro.shared.enable()
-#endif
-```
+import SwiftUI
+import shared // your KMP framework name
 
-### Ktor Client
+@main
+struct iOSApp: App {
+    init() {
+        #if DEBUG
+        NetworkInspectionPro.shared.enable()
+        #endif
+    }
 
-```kotlin
-val client = HttpClient {
-    install(NetworkInspectorPlugin)
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
 }
 ```
 
-### Wrap Your Root Composable
+---
 
-```kotlin
-// In your root Composable (e.g., MainActivity setContent)
-NetworkInspectorOverlay {
-    MyAppContent()
-}
-```
+## Usage
 
-Shake the device to open the inspector. Shake again to dismiss.
+Once set up, make HTTP requests normally through your Ktor client. Then **shake the device** to open the inspector. You will see a list of all captured requests. Tap any entry to view full request/response details including headers, body, and timing.
 
-## Release Builds
+Shake again (or press the back button) to dismiss the overlay.
 
-Simply do **not** call `NetworkInspectionPro.init(context)` (Android) or `NetworkInspectionPro.shared.enable()` (iOS) in release builds. The Ktor plugin checks `isEnabled` before doing any work, and the overlay renders only your content when disabled.
+---
 
-## Requirements
+## Release builds
 
-| Platform | Minimum |
-|---|---|
-| Android | API 24 |
-| iOS | iOS 14+ |
-| Kotlin | 2.1.21 |
-| Ktor | 3.1.3 |
+Do **not** call `init(context)` (Android) or `enable()` (iOS) in release builds.
+
+When disabled:
+- `NetworkInspectorPlugin` skips all work on every request — no allocations, no storage.
+- `NetworkInspectorOverlay` renders only your content, adding no overhead.
+
+---
+
+---
+
+Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)
+
+---
 
 ## License
 
