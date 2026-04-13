@@ -1,3 +1,4 @@
+import com.vanniktech.maven.publish.SonatypeHost
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
@@ -54,11 +55,8 @@ android {
 }
 
 mavenPublishing {
-    publishToMavenCentral()
-    if (project.hasProperty("signing.keyId") ||
-        System.getenv("ORG_GRADLE_PROJECT_signingInMemoryKey") != null) {
-        signAllPublications()
-    }
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+    signAllPublications()
     coordinates(group.toString(), "network-inspection-pro", version.toString())
     pom {
         name = "NetworkInspectionPro"
