@@ -1,5 +1,8 @@
 # NetworkInspectionPro
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.hazemafaneh/network-inspection-pro.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/io.github.hazemafaneh/network-inspection-pro)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
 A Kotlin Multiplatform Ktor HTTP traffic inspector with a Compose Multiplatform UI.
 Shake the device to open the inspector overlay. Zero overhead in release builds.
 
